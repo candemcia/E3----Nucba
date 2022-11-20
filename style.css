@@ -145,4 +145,19 @@ main {
     line-height: 40px;
 }
 
+#cards {
+    background-color:#ff9180;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
 
+.caja {
+    background-color:#ff9180;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
