@@ -265,10 +265,14 @@ main {
     letter-spacing: 1px;
 }
 
-#foto {
+.foto {
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    flex-direction: column;
     align-items: center;
+    width: 400px;
+    gap: 20px;
+    
     
 }
 
