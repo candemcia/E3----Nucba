@@ -228,7 +228,6 @@ main {
 
 /* CONTACTO */
 
-
 .contact {
     margin-top: 100px;
 }
@@ -239,7 +238,6 @@ main {
     gap: 80px;
     line-height: 55px;
     margin-left: 500px;
-    
 }
 
 .info-contacto h3 {
@@ -267,12 +265,10 @@ main {
 
 .foto {
     display: flex;
-    justify-content:center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 400px;
-    gap: 20px;
-    
+    margin: 50px 20px;
     
 }
 
