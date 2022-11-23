@@ -237,14 +237,14 @@ main {
     flex-direction: column;
     gap: 80px;
     line-height: 55px;
-    margin-left: 500px;
 }
 
 .info-contacto h3 {
-    text-align: left;
+    text-align: center;
     color: #ffffff;
     font-size: 40px;
     font-weight: 20px;
+    
 }
 
 .info-contacto ul p {
@@ -263,10 +263,17 @@ main {
     letter-spacing: 1px;
 }
 
+.seccion {
+    display: flex;
+    justify-content: center;
+}
+
 .foto {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 500px;
+    padding-bottom: 100px;
 }
 
 footer {
