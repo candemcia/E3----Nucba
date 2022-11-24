@@ -15,28 +15,38 @@ body {
 
 /* HEADER */
 
-.navbar {
+header { 
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #ff9180;
-    padding: 50px;
-    height: 100px;
-    padding-left: 50px;
+    height: 60px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    list-style: none;
+    gap: 50px;
 }
 
 .nav-list {
-    list-style: none;
     display: flex;
-    gap: 80px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 500px;
+    gap: 50px;
+    padding: 80px;
 }
 
 ul a {
     text-decoration: none;
     color: #ffffff;
     font-weight: 600;
-    padding: 20px;
-    font-size: 25px;
+    font-size: 18px;
+    align-items: center;
 }
 
 /* MAIN */
@@ -51,8 +61,6 @@ main {
 
 #hero {
     margin: 50px;
-    padding: 20px 0;
-    max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,17 +71,18 @@ main {
     gap: 30px;
     display: flex; 
     flex-direction: column;
+    margin-left: 100px;
 }
 
 .hero-info h1 {
     color: #fafafa;
-    font-size: 90px;
+    font-size: 50px;
 }
 
 .hero-info p {
     color: #ffffff;
     gap: 30px;
-    font-size: 25px;
+    font-size: 18px;
     line-height: 40px;
     text-align: justify;
 }
@@ -81,10 +90,10 @@ main {
 .hero-info a {
     color: rgb(255, 255, 255);
     background-color: #ff9180;
-    width: 200px;
-    padding: 8px 0px;
-    border-radius: 13px;
-    font-size: 20px;
+    width: 150px;
+    padding: 4px 0px;
+    border-radius: 10px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -114,6 +123,7 @@ main {
     justify-content: space-around;
     gap: 10px;
     color: #ffffff;
+    font-size: 12px;
 }
 
 /* TITLE */
@@ -133,15 +143,15 @@ main {
 .title2 h2 {
     text-align: center;
     color: #fafafa;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .title2 p {
-    margin: 0 500px;
+    margin: 0 200px;
     text-align: justify;
     color: #ffffff;
     gap: 50px;
-    font-size: 25px;
+    font-size: 16px;
     padding: 40px;
     line-height: 40px;
 }
@@ -160,13 +170,13 @@ main {
 
 .ventajas h2 {
     color:#ff9180;
-    font-size: 40px;
+    font-size: 30px;
 
 }
 
 .ventajas p {
     color: #fafafa;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 /* CAJAS */
@@ -181,6 +191,7 @@ main {
     gap: 70px;
     width: 100%;
 }
+
 .caja-container {
     display: flex;
     justify-content: space-around;
@@ -195,8 +206,8 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center; 
-    width: 500px;
-    height: 400px;
+    width: 300px;
+    height: 260px;
     border-radius: 20px;
     background-color: #ff9180;
     margin: 0px 60px;
@@ -214,7 +225,7 @@ main {
   }
 
 .caja-info h3 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 30%;
     text-align: center;
 }
@@ -222,7 +233,7 @@ main {
 .caja-info p {
     font-weight: 30%;
     text-align: center;
-    font-size: 25px;
+    font-size: 16px;
     padding: 10px;
 }
 
@@ -237,14 +248,14 @@ main {
     flex-direction: column;
     gap: 80px;
     line-height: 55px;
+    margin-left: 50px;
 }
 
 .info-contacto h3 {
     text-align: center;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 20px;
-    
 }
 
 .info-contacto ul p {
@@ -252,13 +263,13 @@ main {
     letter-spacing: 1px;
     gap: 10px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .info-contacto ul a {
     text-decoration: underline;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 14px;
     padding: 10px;
     letter-spacing: 1px;
 }
@@ -287,9 +298,9 @@ footer {
 }
 
 footer h3 {
-    font-size: 20px;
+    font-size: 14px;
 }
 
 footer p {
-    font-size: 18px;
+    font-size: 12x;
 }
