@@ -45,8 +45,9 @@ ul a {
     text-decoration: none;
     color: #ffffff;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     align-items: center;
+ 
 }
 
 /* MAIN */
@@ -71,7 +72,7 @@ main {
     gap: 30px;
     display: flex; 
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 
 .hero-info h1 {
@@ -82,7 +83,7 @@ main {
 .hero-info p {
     color: #ffffff;
     gap: 30px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 40px;
     text-align: justify;
 }
@@ -90,10 +91,10 @@ main {
 .hero-info a {
     color: rgb(255, 255, 255);
     background-color: #ff9180;
-    width: 150px;
+    width: 120px;
     padding: 4px 0px;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 12px;
     text-align: center;
 }
 
@@ -133,7 +134,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    
+    margin-top: 50px;
 }
 
 .title2 {
@@ -171,7 +172,7 @@ main {
 .ventajas h2 {
     color:#ff9180;
     font-size: 30px;
-
+    margin-top: 20px;
 }
 
 .ventajas p {
