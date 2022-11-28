@@ -10,8 +10,8 @@
 }
 
 body {
-    background: url(.assets/Desktop.png)
-
+    background: url(.assets/Desktop.png);
+    background-size: cover;
 }
 
 /* HEADER */
