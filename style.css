@@ -20,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #131415;
+    background-color: transparent;
     height: 60px;
 }
 
@@ -28,7 +28,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px;
+    margin-left: 80px;
     list-style: none;
     gap: 50px;
 }
