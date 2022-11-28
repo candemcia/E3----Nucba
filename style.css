@@ -10,7 +10,8 @@
 }
 
 body {
-    background-color: #131415;
+    background: url(.assets/Desktop.png)
+
 }
 
 /* HEADER */
@@ -19,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ff9180;
+    background-color: #131415;
     height: 60px;
 }
 
@@ -90,7 +91,10 @@ main {
 
 .hero-info a {
     color: rgb(255, 255, 255);
-    background-color: #ff9180;
+    background-color: transparent;
+    border-color: #fafafa;
+    border-style: solid;
+    border-width: 1px;
     width: 120px;
     padding: 4px 0px;
     border-radius: 10px;
@@ -143,7 +147,7 @@ main {
 
 .title2 h2 {
     text-align: center;
-    color: #fafafa;
+    color: #93EEE9;
     font-size: 30px;
 }
 
@@ -170,7 +174,7 @@ main {
 }
 
 .ventajas h2 {
-    color:#ff9180;
+    color: #D693EE;
     font-size: 30px;
     margin-top: 20px;
 }
@@ -210,7 +214,9 @@ main {
     width: 300px;
     height: 260px;
     border-radius: 20px;
-    background-color: #ff9180;
+    border-color: #fafafa;
+    border-style: solid;
+    border-width: 1px;
     margin: 0px 60px;
 }
 
@@ -295,7 +301,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #727272;
+    color: #363636;
     margin: 100px;
     line-height: 40px;
 }
